@@ -14,6 +14,12 @@
 		EF4D971A1A8F864F003346C5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF4D97191A8F864F003346C5 /* Images.xcassets */; };
 		EF4D971D1A8F864F003346C5 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = EF4D971B1A8F864F003346C5 /* LaunchScreen.xib */; };
 		EF4D97291A8F864F003346C5 /* TableViewCellScrollTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EF4D97281A8F864F003346C5 /* TableViewCellScrollTests.m */; };
+		EF4D97341A8F8703003346C5 /* CustomTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EF4D97331A8F8703003346C5 /* CustomTableViewCell.m */; };
+		EF4D973A1A8F8912003346C5 /* image1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EF4D97351A8F8912003346C5 /* image1.jpg */; };
+		EF4D973B1A8F8912003346C5 /* image2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EF4D97361A8F8912003346C5 /* image2.jpg */; };
+		EF4D973C1A8F8912003346C5 /* image3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EF4D97371A8F8912003346C5 /* image3.jpg */; };
+		EF4D973D1A8F8912003346C5 /* image4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EF4D97381A8F8912003346C5 /* image4.jpg */; };
+		EF4D973E1A8F8912003346C5 /* image5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EF4D97391A8F8912003346C5 /* image5.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +46,13 @@
 		EF4D97221A8F864F003346C5 /* TableViewCellScrollTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TableViewCellScrollTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF4D97271A8F864F003346C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EF4D97281A8F864F003346C5 /* TableViewCellScrollTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TableViewCellScrollTests.m; sourceTree = "<group>"; };
+		EF4D97321A8F8703003346C5 /* CustomTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomTableViewCell.h; sourceTree = "<group>"; };
+		EF4D97331A8F8703003346C5 /* CustomTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomTableViewCell.m; sourceTree = "<group>"; };
+		EF4D97351A8F8912003346C5 /* image1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image1.jpg; sourceTree = "<group>"; };
+		EF4D97361A8F8912003346C5 /* image2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image2.jpg; sourceTree = "<group>"; };
+		EF4D97371A8F8912003346C5 /* image3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image3.jpg; sourceTree = "<group>"; };
+		EF4D97381A8F8912003346C5 /* image4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image4.jpg; sourceTree = "<group>"; };
+		EF4D97391A8F8912003346C5 /* image5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image5.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +99,9 @@
 				EF4D97131A8F864F003346C5 /* ViewController.h */,
 				EF4D97141A8F864F003346C5 /* ViewController.m */,
 				EF4D97161A8F864F003346C5 /* Main.storyboard */,
+				EF4D97321A8F8703003346C5 /* CustomTableViewCell.h */,
+				EF4D97331A8F8703003346C5 /* CustomTableViewCell.m */,
+				EF4D973F1A8F891C003346C5 /* Resources */,
 				EF4D97191A8F864F003346C5 /* Images.xcassets */,
 				EF4D971B1A8F864F003346C5 /* LaunchScreen.xib */,
 				EF4D970C1A8F864F003346C5 /* Supporting Files */,
@@ -117,6 +133,18 @@
 				EF4D97271A8F864F003346C5 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EF4D973F1A8F891C003346C5 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				EF4D97351A8F8912003346C5 /* image1.jpg */,
+				EF4D97361A8F8912003346C5 /* image2.jpg */,
+				EF4D97371A8F8912003346C5 /* image3.jpg */,
+				EF4D97381A8F8912003346C5 /* image4.jpg */,
+				EF4D97391A8F8912003346C5 /* image5.jpg */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -200,6 +228,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				EF4D97181A8F864F003346C5 /* Main.storyboard in Resources */,
+				EF4D973E1A8F8912003346C5 /* image5.jpg in Resources */,
+				EF4D973B1A8F8912003346C5 /* image2.jpg in Resources */,
+				EF4D973A1A8F8912003346C5 /* image1.jpg in Resources */,
+				EF4D973C1A8F8912003346C5 /* image3.jpg in Resources */,
+				EF4D973D1A8F8912003346C5 /* image4.jpg in Resources */,
 				EF4D971D1A8F864F003346C5 /* LaunchScreen.xib in Resources */,
 				EF4D971A1A8F864F003346C5 /* Images.xcassets in Resources */,
 			);
@@ -221,6 +254,7 @@
 			files = (
 				EF4D97151A8F864F003346C5 /* ViewController.m in Sources */,
 				EF4D97121A8F864F003346C5 /* AppDelegate.m in Sources */,
+				EF4D97341A8F8703003346C5 /* CustomTableViewCell.m in Sources */,
 				EF4D970F1A8F864F003346C5 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
